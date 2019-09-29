@@ -1,0 +1,33 @@
+{
+  "name": "iost-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test:lib": "mocha lib/test",
+    "test:contracts": "mocha contracts/test",
+    "install:client": "cd client && yarn",
+    "install:firebase": "cd firebase && npm install",
+    "install:localadmin": "iwallet --server localhost:30002 account import admin 2yquS3ySrGWPEKywCPzX4RTJugqRh7kJSo5aehsLYPEWkUxBWA39oMrZ7ZxuM4fgyXYs2cPwh5n8aNNpH5x2VyK1",
+    "start:server": "cd firebase && firebase emulators:start",
+    "start:client": "cd client && quasar dev",
+    "start:localnode": "cd lib && docker run --rm -p 30000-30003:30000-30003 -v $(pwd)/iserver.yml:/var/lib/iserver/iserver.yml  iostio/iost-node",
+    "deploycontract:local": "node lib/src/deploy_contract_local.js",
+    "deploycontract:testnet": "node lib/src/deploy_contract_testnet.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@google-cloud/firestore": "^2.3.0",
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.1.0"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "iost": "^0.1.20"
+  }
+}
