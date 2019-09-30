@@ -9,7 +9,7 @@
     <li><a href="https://chrome.google.com/webstore/detail/iwallet/kncchdigobghenbbaddojjnnaogfppfj?hl=en">Install IOST Iwallet Chrome Extension</a></li>
         <li><a href="https://docs.docker.com/get-started/#prepare-your-docker-environment">Install Docker</a></li>
     <li>Optional: Install Firebase CLI (not yet fully implemented)</li>
-    <li>Clone Git repo<pre>git clone https://github.com/blockdevs-asia/iost-boilerplate.git</pre></li>
+    <li>Clone Git repo<pre>git clone https://github.com/blockdevsasia/iost-boilerplate.git</pre></li>
     <li>cd into the root project folder <pre>cd iost-boilerplate</pre></li>
     <li>Install dependencies for client: <pre>npm run install:client</pre></li>
     <li>Install 'admin' account for local node': <pre>npm run install:localadmin</pre></li>
