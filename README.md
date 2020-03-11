@@ -1,7 +1,7 @@
 # IOST+Quasar+Firebase boilerplate
 <img src="https://www.blockdevs.asia/wp-content/uploads/2019/02/IOST-BlockDevs-Asia.png">
 
-<h2> Installation Instructions</h2>
+<h2>Installation Instructions</h2>
 <ol>
     <li><a href="https://nodejs.org/en/download/"> Install Node.JS</a></li>
     <li><a href="https://quasar.dev/start/quasar-cli">Install Quasar CLI</a></li>
