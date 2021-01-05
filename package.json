@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@google-cloud/firestore": "^2.3.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "dotenv": "^8.1.0"
   },
